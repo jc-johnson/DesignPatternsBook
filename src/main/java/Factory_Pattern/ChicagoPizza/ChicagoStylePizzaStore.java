@@ -14,8 +14,8 @@ public class ChicagoStylePizzaStore extends PizzaStore {
         super(factory);
     }
 
-    @Override
-    Pizza createPizza(String type) {
+
+    public Pizza createPizza(String type) {
 
         Pizza pizza = null;
 

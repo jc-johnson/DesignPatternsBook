@@ -13,7 +13,6 @@ public class NyStylePizzaStore extends PizzaStore {
         super(factory);
     }
 
-    @Override
     public Pizza createPizza(String type){
 
         Pizza pizza = null;

@@ -15,9 +15,11 @@ public class PizzaTestDrive {
         PizzaStore chicagoStore = new ChicagoStylePizzaStore(factory);
 
         Pizza pizza = nyStore.orderPizza("cheese");
+        nyStore.createPizza("cheese");
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
 
         pizza = chicagoStore.orderPizza("cheese");
+        chicagoStore.createPizza("cheese");
         System.out.println("Joel ordered a " + pizza.getName() + "\n");
     }
 }
