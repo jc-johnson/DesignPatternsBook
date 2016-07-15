@@ -5,11 +5,15 @@ package Command_Pattern.Vendor_Classes;
  */
 public class Hottub {
 
-    public void circulate(){};
+    public void circulate(){}
 
-    public void jetsOn(){};
+    public void jetsOn(){
+        System.out.println("Jets are on!");
+    }
 
-    public void jetsOff(){};
+    public void jetsOff(){
+        System.out.println("Jets are off!");
+    }
 
-    public void setTemperature(){};
+    public void setTemperature(){}
 }
