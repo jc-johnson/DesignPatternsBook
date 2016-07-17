@@ -12,10 +12,10 @@ public class RemoteLambdaLoader {
         final Light livingRoomLight = new Light("Living Room");
         RemoteControl remoteControl = new RemoteControl();
 
-        remoteControl.setCommand(0, () -> {
+        /*remoteControl.setCommand(0, () -> {
             livingRoomLight.on();
         }, () -> {
             livingRoomLight.off();
-        });
+        });*/
     }
 }
